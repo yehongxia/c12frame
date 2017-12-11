@@ -1,0 +1,25 @@
+{
+    "name": "yehongxia/c12frame",
+    "description": "frem",
+    "type": "project",
+    "authors": [
+        {
+            "name": "yehongxia",
+            "email": "1832146651@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filp/whoops": "^2.0@dev"
+    },
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system\\"
+        }
+    }
+}
